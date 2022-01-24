@@ -11,7 +11,7 @@
     "test": "tests"
   },
   "scripts": {
-    "deploy": "npm build && cp CNAME public && gh-pages -d public -b gh-pages",
+    "deploy": "npm build && gh-pages -d public -b gh-pages",
     "build": "ember build --environment=production",
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel \"lint:!(fix)\"",
     "lint:fix": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*:fix",
