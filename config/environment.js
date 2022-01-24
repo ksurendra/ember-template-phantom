@@ -4,7 +4,7 @@ module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'ember-template-phantom',
     environment,
-    rootURL: '/',
+    rootURL: 'ember-template-phantom',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
